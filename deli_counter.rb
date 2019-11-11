@@ -3,8 +3,9 @@ def line(array)
     puts "The line is currently empty."
   else
     line_now="The line is currently:"
-    array.each_with_index(1) do |name,index|
-      line_now.push(" #{index}. #{name}")
+   
+    array.each_with_index do |name,num|
+      line_now.push(" #{num}. #{name}")
   end
   line_now
   end
