@@ -2,7 +2,7 @@ def line(array)
   if array.size<1
     puts "The line is currently empty."
   else
-       puts "The line is currently: "
+    line_now="The line is currently: 
     array.each_with_index do |name,index|
  
   end
