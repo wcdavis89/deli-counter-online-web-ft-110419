@@ -26,4 +26,5 @@ def now_serving(name)
   else
     puts helping
   end
+  end
 end
