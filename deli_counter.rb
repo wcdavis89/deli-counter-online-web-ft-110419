@@ -20,7 +20,7 @@ end
 def now_serving(array)
  helping="Currently serving "
  array.shift do |name|
-   helping << "#{name}."
+   helping.push(name)
  end
   if array.size==0 
     puts "There is nobody waiting to be served!"
