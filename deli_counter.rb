@@ -18,9 +18,9 @@ def take_a_number(array, name)
 end 
 
 def now_serving(name)
- helping="There is nobody waiting to be served! "
+ helping="Currently serving "
  array.first do |name|
-   helping << "#{name}"
+   helping << "#{name}."
  end
   if array.size==0 
     puts "There is nobody waiting to be served!"
