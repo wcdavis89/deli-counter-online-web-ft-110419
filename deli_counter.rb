@@ -6,6 +6,7 @@ def line(array)
     array.each_with_index(1) do |name,index|
       line_now.push(" #{index}. #{name}")
   end
+  line_now
   end
 end
 
