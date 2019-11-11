@@ -1,15 +1,15 @@
-def line(array)
-  if array.size<1
+
+def line(array) 
+  if array.size<0 
     puts "The line is currently empty."
-  else
-    line_now="The line is currently:"
-   
-    array.each_with_index do |name,num|
-      line_now.push(" #{num}. #{name}")
-  end
-  line_now
-  end
-end
+  else 
+    line_now = "The line is currently:"
+    array.each_with_index do |value, index| 
+    line_now << " #{index.to_i+1}. #{value}"
+  end 
+  puts line_now
+  end 
+end 
 
 def take_a_number(array,name)
   ticket=0 
