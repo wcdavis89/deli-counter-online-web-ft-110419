@@ -6,6 +6,7 @@ def line(array)
     line_now = "The line is currently:"
     array.each_with_index do |value, index| 
     line_now << " #{index.to_i+1}. #{value}"
+  
   end 
   puts line_now
   end 
