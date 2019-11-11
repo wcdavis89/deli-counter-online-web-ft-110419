@@ -18,12 +18,12 @@ def take_a_number(array, name)
 end 
 
 def now_serving(name)
- helping="Now serving "
+ helping="There is nobody waiting to be served! "
  array.first do |name|
    helping << "#{name}"
  end
   if array.size==0 
-    puts "The line is empty."
+    puts "There is nobody waiting to be served!"
   else
     puts helping
   end
