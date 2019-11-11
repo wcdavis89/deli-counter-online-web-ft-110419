@@ -19,7 +19,7 @@ end
 
 def now_serving(array)
  helping="Currently serving "
- name=array.first
+ name=array.shift
    helping << "#{name}."
  
   if array.size==0 
@@ -27,4 +27,5 @@ def now_serving(array)
   else
     puts helping
   end
+  
 end
