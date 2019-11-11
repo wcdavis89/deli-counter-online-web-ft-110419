@@ -19,7 +19,7 @@ end
 
 def now_serving(name)
  helping="Currently serving "
- array.first do |name|
+ array.shift do |name|
    helping << "#{name}."
  end
   if array.size==0 
