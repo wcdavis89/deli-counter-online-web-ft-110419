@@ -21,10 +21,10 @@ def now_serving(name)
  helping="Now serving "
  array.first do |name|
    helping << "#{name}"
+ end
   if array.size==0 
     puts "The line is empty."
   else
     puts helping
-  end
   end
 end
