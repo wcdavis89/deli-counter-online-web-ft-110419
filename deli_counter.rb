@@ -7,7 +7,7 @@ def line(array)
   if array.size==0 
     puts "The line is currently empty."
   else 
-  p line_now
+  puts line_now
   end 
 end 
 
