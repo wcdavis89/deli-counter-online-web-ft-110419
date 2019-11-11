@@ -3,8 +3,8 @@ def line(array)
     puts "The line is currently empty."
   else
     counter=1
-    
-    puts "The line is currently: #{counter}. #{array.join(" #{array.each do counter+=1 until counter=array.size end}. ")}"
+    array.each do counter+=1 until counter=array.size end
+    puts "The line is currently: #{counter}. #{array.join(" #{counter}. ")}"
   end
 end
 
