@@ -17,7 +17,7 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{ticket} in line."
 end 
 
-def now_serving(name)
+def now_serving(array)
  helping="Currently serving "
  array.shift do |name|
    helping << "#{name}."
