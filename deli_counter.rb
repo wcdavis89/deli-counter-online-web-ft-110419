@@ -1,8 +1,8 @@
-def line(array,index)
+def line(array)
   if array.size<1
     puts "The line is currently empty."
   else
-    puts "The line is currently: 1.#{index[0}"
+    puts "The line is currently: 1. #{array[0].join(", ")}   "
   end
 end
 
