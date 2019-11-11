@@ -19,9 +19,9 @@ end
 
 def now_serving(array)
  helping="Currently serving "
- array.shift do |name|
-   helping.push(name)
- end
+ name=array.first
+   helping << "#{name}."
+ 
   if array.size==0 
     puts "There is nobody waiting to be served!"
   else
