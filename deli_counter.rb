@@ -3,7 +3,7 @@ def line(array)
     puts "The line is currently empty."
   else
     counter=1
-    array.each do counter+=1  end
+    array.each_with do |name|  end
     puts "The line is currently: #{counter}. #{array.join(" #{counter}. ")}"
   end
 end
