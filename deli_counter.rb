@@ -18,6 +18,7 @@ def take_a_number(array, name)
 end 
 
 def now_serving(name,num)
+ 
   if array.size==0 
     puts "The line is empty."
   end
