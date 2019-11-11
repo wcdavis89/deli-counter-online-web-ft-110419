@@ -2,8 +2,8 @@ def line(array)
   if array.size<1
     puts "The line is currently empty."
   else
-    counter=1
-    puts "The line is currently: #{counter}. #{array.join(" #{counter++1}. ")}"
+    counter+=1
+    puts "The line is currently: #{counter}. #{array.join(" #{counter}. ")}"
   end
 end
 
