@@ -17,9 +17,13 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{ticket} in line."
 end 
 
-def now_serving(name,num)
- 
+def now_serving(name)
+ helping="Now serving "
+ array.first do |name|
+   helping << "#{name}"
   if array.size==0 
     puts "The line is empty."
+  else
+    puts helping
   end
 end
