@@ -2,9 +2,8 @@ def line(array)
   if array.size<1
     puts "The line is currently empty."
   else
-    counter=1
-    array.each_with do |name|  end
-    puts "The line is currently: #{counter}. #{array.join(" #{counter}. ")}"
+    array.each_with do |name,index|  end
+    puts "The line is currently: #{index}. #{array.join(" #{counter}. ")}"
   end
 end
 
